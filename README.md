@@ -1,1 +1,9 @@
-# Backtester-Engine
+# Trading Strategy Backtester (Python)
+
+The Trading Strategy Backtester is an advanced Python project designed to simulate, evaluate, and analyze trading strategies using historical or synthetic price data. This tool allows users to define trading rules, such as moving average crossovers, and automatically track the evolution of a portfolio over time, including cash, positions, and total portfolio value. By providing both a day-by-day history and overall performance metrics, the backtester enables users to understand the potential outcomes and risks associated with a trading strategy.
+
+This project generates synthetic stock price data and applies trading strategies to evaluate their effectiveness. For each day, it calculates signals based on defined indicators and executes trades accordingly. The portfolio’s performance is tracked, recording cash balances, holdings, and total value over time. Users can observe how buy and sell decisions impact overall returns, providing insights into strategy profitability, drawdowns, and risk exposure. This functionality makes the project useful for both educational purposes and practical strategy experimentation.
+
+Designed as a single Python file using only the standard library, the Trading Strategy Backtester is lightweight, accessible, and easy to extend. Users can implement different technical indicators, adjust strategy parameters, or simulate multiple strategies to compare performance. It provides a foundation for more advanced projects, such as multi-asset backtesting, portfolio optimization, or automated algorithmic trading.
+
+Beyond its educational value, this backtester demonstrates how Python can be applied to real-world financial analysis and quantitative research. By combining strategy logic, portfolio simulation, and performance evaluation, it bridges the gap between theoretical trading concepts and practical implementation. The Trading Strategy Backtester encourages experimentation, learning, and contribution, making it an ideal Hacktoberfest project for finance enthusiasts, algorithmic traders, and Python developers.
